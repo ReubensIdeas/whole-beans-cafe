@@ -153,6 +153,9 @@ a:hover {
     text-align: center;
     padding: 20px;
     opacity: 0.9;
+    background-image: url('https://i.imgur.com/M7y10Zu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(100, 98, 98, 0.288);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
