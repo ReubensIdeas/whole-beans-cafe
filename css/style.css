@@ -49,7 +49,7 @@ i {
 
 i:hover,
 a:hover {
-    color: dodgerblue;
+    color: #FFDF00;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ a:hover {
     opacity: 0.9;
     background-color: transparent;
     border-radius: 10px;
-
+    text-shadow: 2px 2px #1B0000;
 }
 
 .logo {
