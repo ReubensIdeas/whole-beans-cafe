@@ -97,6 +97,7 @@ a:hover {
 }
 
 .IntroMsg {
+    color: white;
     margin: 20px;
     position: relative;
     width: 100%;
