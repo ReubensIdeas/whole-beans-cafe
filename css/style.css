@@ -336,12 +336,19 @@ a:hover {
     display: block;
 }
 
+.menu-list {
+    border-bottom: 1px solid slategray;
+}
+
+.menu-options li {
+    list-style-type: upper-roman;
+}
+
 #home-menu li {
     float: left;
     width: 50%;
     padding: 0;
     margin: 20px 0 20px 8%;
-    border-bottom: 1px solid slategray;
 }
 .dish {
     float: left;
