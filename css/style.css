@@ -96,6 +96,13 @@ a:hover {
 
 }
 
+.book-btn {
+    background-color: transparent;
+    color: #FFDF00;
+    border: 2px solid #FFDF00;
+    padding: 10px 30px;
+}
+
 .IntroMsg {
     color: white;
     margin: 20px;
