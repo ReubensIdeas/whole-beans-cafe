@@ -39,6 +39,11 @@ body {
     background-color: rgba(0, 0, 0, 0.541);
 }
 
+.navBar ul {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
 .navBar a {
     text-decoration: none;
     color: white;
@@ -54,8 +59,22 @@ body {
     border-radius: 50px;
 }
 
-.book-table h2 {
+.book-table button {
     margin: auto;
+    font-size: 2rem;
+    color: #FFDF00;
+    background-color: transparent;
+    border: transparent;
+}
+
+.book-table:hover {
+    transition-duration: 0.4s;
+    background-color: #FFDF00;
+    font-style: black;
+}
+
+.book-table button:hover {
+    color: black;
 }
 
 img {
@@ -103,7 +122,9 @@ a:hover {
 }
 
 .book-btn:hover {
-    zoom: 125%;
+    background-color:#FFDF00;
+    transition-duration: 0.4s;
+    color: black;
 }
 
 .book-btn {
