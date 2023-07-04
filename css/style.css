@@ -50,27 +50,19 @@ body {
 }
 
 .book-table {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8) !important;
     border: 2px solid #FFDF00;
     height: 70px;
-    display: flex;
     width: 40%;
-    margin: auto;
-    border-radius: 50px;
-}
-
-.book-table button {
     margin: auto;
     font-size: 2rem;
     color: #FFDF00;
-    background-color: transparent;
-    border: transparent;
 }
 
 .book-table:hover {
     transition-duration: 0.4s;
-    background-color: #FFDF00;
-    font-style: black;
+    background-color: #FFDF00 !important;
+    color: black;
 }
 
 .book-table button:hover {
