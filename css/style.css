@@ -20,13 +20,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* nav bar styling */
-@media only screen and (min-width: 850px) {
-.navBar {
-    margin-top: -20px;
-}
-}
-
 .navBar {
     margin-bottom: 20px;
     width: 100%;
@@ -49,6 +42,11 @@ body {
     color: white;
 }
 
+.nav-btn {
+    margin-top: -10px;
+    float: right;
+}
+
 .book-table {
     background-color: rgba(0, 0, 0, 0.8) !important;
     border: 2px solid #FFDF00;
@@ -65,8 +63,10 @@ body {
     color: black;
 }
 
-.book-table button:hover {
-    color: black;
+@media only screen and (max-width: 1140px) {
+    .book-table {
+      font-size: 1rem;
+    }
 }
 
 img {
@@ -120,6 +120,7 @@ a:hover {
 }
 
 .book-btn {
+    margin-top: -20px;
     background-color: transparent;
     color: #FFDF00;
     border: 2px solid #FFDF00;
