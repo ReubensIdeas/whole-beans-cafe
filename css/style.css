@@ -98,11 +98,10 @@ a:hover {
 /*  grid system for the webpage */
 
 .header {
-    width: 80%;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 10%;
-    left: 5%;
     display: grid;
     grid-template-rows: 1fr;
 }
@@ -129,7 +128,6 @@ a:hover {
 
 .IntroMsg {
     color: white;
-    margin: 20px;
     position: relative;
     width: 100%;
     top: -20%;
