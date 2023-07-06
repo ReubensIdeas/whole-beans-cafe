@@ -448,7 +448,8 @@ a:hover {
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 40%;
+	width: 25%;
+    margin-right: 20px;
 }
 
 /* The company logo */
@@ -479,6 +480,10 @@ a:hover {
 	color:  inherit;
 }
 
+.footer-distributed .footer-links a:hover {
+    color: #FFDF00;
+}
+
 .footer-distributed .footer-company-name{
 	color:  #FFDF00;
 	font-size: 14px;
@@ -489,7 +494,8 @@ a:hover {
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 20%;
+    margin-right: 20px;
 }
 
 .footer-distributed .footer-center i{
