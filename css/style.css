@@ -233,7 +233,6 @@ a:hover {
 
     html {
         font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
     h2,
@@ -422,11 +421,11 @@ a:hover {
     }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
   font-family: Open Sans;
-}
+}*/
 
 .footer-distributed{
 	background: #666;
@@ -448,7 +447,7 @@ a:hover {
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 25%;
+	width: 28%;
     margin-right: 20px;
 }
 
@@ -554,6 +553,8 @@ a:hover {
 
 .footer-distributed .footer-right{
 	width: 20%;
+    padding-left: 20px;
+    margin-left: 10px;
 }
 
 .footer-distributed .footer-company-about{
