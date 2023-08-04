@@ -193,14 +193,10 @@ a:hover {
     position: relative;
     width: 100%;
     left: 0%;
-    top: 10%;
+    top: 20%;
     text-align: center;
     padding: 20px;
     opacity: 0.9;
-    /*background-image: url('https://i.imgur.com/M7y10Zu.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;*/
 }
 
 .menu {
@@ -310,6 +306,15 @@ a:hover {
 .form button:active {
     background-color: rgba(30, 96, 161, 0.801);
     border: none;
+}
+
+#opening-hours {
+    position: relative;
+    margin: auto;
+    width: 30%;
+    border: 0.5rem solid #986b4b;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px grey;
 }
 
 #opening-hours h2 {
